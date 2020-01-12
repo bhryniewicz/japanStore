@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title>jd</title>
+</head>
+<body>
+	<input type='text' id='kolor'><br/>
+	<input type='number' id='liczba1'><br/>
+	<input type='number' id='liczba1'><br/>
+	<input type='submit' value='klik i juz'><br/>
+	<script>
+		
+	</script>
+</body>
+</html>

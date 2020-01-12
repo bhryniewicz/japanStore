@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Rosario:400,400i,700i');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    height: 100vh;
+    position: relative;
+    font-family: 'Rosario', serif;
+    font-style: italic;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0,0.5)), url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+i.openNav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    font-weight: 400;
+    padding: 70px;
+    font-size: 40px;
+}
+
+header p {
+    text-align: center;
+    line-height: 1.5;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+header .offers {
+    display: block;
+    margin: 0 auto;
+    font-family: 'Rosario', serif;
+    font-style: italic;
+    background-color: transparent;
+    padding: 20px 50px;
+    font-size: 20px;
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 7%;
+    color: white;
+    transition: 0.5s;
+}
+
+header button:hover {
+    font-size: 28px;
+    border-color: transparent;
+    outline: none;
+}
+
+.bars i {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 20px;
+    left: 20px;
+}
+
+/* Hamburger menu */
+
+#mainNav{
+    height: 100%;
+    width: 0px;
+    font-family: 'Rosario', sans-serif;;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:  #3b3d42;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+#mainNav a {
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    color: #d7dae2;
+    font-size: 20px;
+    display: block;
+    transition: .3s;
+}
+
+#mainNav a:hover {
+    color: white;
+}
+
+section {
+    height: 30vh;
+}
+
+
+
+/* Footer */
+
+footer {
+    min-height: 50vh;
+    width: 100%;
+    background-color: #3b3d42;
+    font-family: 'Rosario', sans-serif;
+}
+
+p.copyright {
+    font-weight: 100;
+    font-size: 12px;
+    color:#d7dae2;
+    padding: 30px;
+    border-top: 1px solid #d7dae2;
+    text-align: center;
+    margin: 30px 20px 0;
+}
+
+.socjalies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.socjalies div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #d7dae2;
+    margin: 20px 10px;
+    text-align: center;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.socjalies div i {
+    font-size: 30px;
+    background-color: transparent;
+    color:  #3b3d42;
+}
+
+footer div.stuff {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.stuff div {
+    margin: 0 30px;
+    font-size: 18px;
+    color: #d7dae2;
+    line-height: 1.7;
+}
+
+.stuff ul {
+    list-style-type: none;
+}
+
+.socjalies div:hover {
+    background-color: white;
+}
+
+.stuff a {
+    text-decoration: none;
+    color:  #d7dae2;
+    transition: .3s;
+}
+
+.stuff a:hover {
+    color: white;
+}

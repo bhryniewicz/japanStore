@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>jd</title>
+</head>
+<body>
+	<input type='text' id='kolor'><br/>
+	<input type='number' id='liczba1'><br/>
+	<input type='number' id='liczba2'><br/>
+	<input type='submit' value='klik i juz' id='click'><br/>
+	<p id='pole'></p>
+	<script>
+		var kolor = document.getElementById('kolor');
+		
+		
+		
+		var click = document.getElementById('click');
+		
+		var pole = document.getElementById('pole');
+		
+		click.onclick = function() {
+		var liczba1 = document.getElementById('liczba1');
+		
+		var liczba2 = document.getElementById('liczba2');
+			var suma = parseInt(liczba1.value) + parseInt(liczba2.value);
+			document.getElementById('kolor') = suma.style.color;
+			pole.innerHTML = "suma jest rowna" + ' ' + suma;
+		}
+	</script>
+</body>
+</html>
